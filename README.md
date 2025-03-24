@@ -60,7 +60,7 @@ Invitamos a explorar nuestro sitio principal para conocer:
 - **Qgis2Web** (Exportación a formato web)
 
 ### Desarrollo Web
-- **Leaflet.js** (Visualización de mapas)
+- <img src="images/" width=16> **Leaflet.js** (Visualización de mapas)
 - **Bootstrap 5** (Diseño responsive)
 - **JavaScript ES6** (Interactividad)
 - **GitHub** (Control de versiones)
