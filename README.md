@@ -60,11 +60,11 @@ Invitamos a explorar nuestro sitio principal para conocer:
 - **Qgis2Web** (Exportación a formato web)
 
 ### Desarrollo Web
-- <img src="images/" width=16> **Leaflet.js** (Visualización de mapas)
-- **Bootstrap 5** (Diseño responsive)
-- **JavaScript ES6** (Interactividad)
-- **GitHub** (Control de versiones)
-- **Netlify** (Despliegue continuo)
+- <img src="images/leaflet.png" width=50> **Leaflet.js** (Visualización de mapas)
+- <img src="images/bootstrap-5.png" width=20> **Bootstrap 5** (Diseño responsive)
+- <img src="images/javascript.png" width=20> **JavaScript ES6** (Interactividad)
+- <img src="images/GitHub.png" width=50> **GitHub** (Control de versiones)
+- <img src="images/netlify.jpg" width=50> **Netlify** (Despliegue continuo)
 
 ## 🎯 Cómo Usar el Mapa
 
