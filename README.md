@@ -1,97 +1,97 @@
-# Interactive Map Project - Provincia de Jujuy
+# Interactive Map Project - Jujuy Providence
 
 <img src="images/Logotipo-CEICAAL-HD.png" width=300>
 
-## 🔐 Nota sobre el Repositorio
+## 🔐 Note about the Repository
 
-Este repositorio público contiene únicamente la documentación del proyecto. **El código fuente y datos completos se encuentran en un repositorio privado** debido a la sensibilidad de la información geoespacial manejada. Para acceder al repositorio completo o más información:
+This public repository contains only the project documentation. **The complete source code and data are in a private repository** due to the sensitivity of the geospatial information handled. For access to the full repository or more information:
 
-📧 Contactar al autor: mirtybmx@gmail.com
+📧 Contact the author: mirtybmx@gmail.com
 
-## 📌 Descripción
+## 📌 Description
 
-Aplicación web interactiva que visualiza información geoespacial de la provincia de Jujuy, Argentina, con enfoque en limnología. El proyecto permite analizar:
+Interactive web application that visualises geospatial information of the province of Jujuy, Argentina, with a focus on limnology. The project allows to analyse:
 
-- Cuencas y microcuencas hidrográficas
-- Red de cursos de agua
-- Distribución de ecorregiones
-- Composición textural de suelos
+- Watersheds and micro-watersheds.
+- Network of watercourses
+- Distribution of ecoregions
+- Soil textural composition
 
-## 🏛️ Contexto Institucional
+## 🏛️ Institutional context
 
-Este proyecto se desarrolla en el marco de las actividades del **Centro de Investigación de Calidad de Aguas de Ambientes de Altura (CEICAAL)**, donde el autor forma parte del equipo de investigación. 
+This project is developed within the framework of the activities of the **Centro de Investigación de Calidad de Aguas de Ambientes de Altura (CEICAAL) (Centre for Research on Water Quality in High Altitude Environments)**, where the author is part of the research team.  
 
-La aplicación constituye un **complemento geoespacial** al [Portal Oficial del CEICAAL](https://ceicaal0.webnode.page/), ampliando las capacidades de análisis de:
+The application constitutes a **geospatial complement** to the [Official Web Site of CEICAAL](https://ceicaal0.webnode.page/), extending the analysis capabilities of:
 
-- Dinámica hidrológica regional  
-- Caracterización de cuencas altoandinas  
-- Monitoreo de calidad de agua  
+- Regional hydrological dynamics  
+- Characterisation of high Andean watersheds  
+- Water quality monitoring  
 
-Invitamos a explorar nuestro sitio principal para conocer:
-- Líneas de investigación activas  
-- Publicaciones científicas  
-- Proyectos en desarrollo  
-- Servicios a la comunidad  
+We invite you to explore our main site to learn more:
 
-*"Integrando conocimiento limnológico con tecnologías geoespaciales para la gestión sostenible de recursos hídricos"*
+- Active research lines  
+- Scientific publications  
+- Projects under development  
+- Community services  
 
-## ✨ Características Principales
+*"Integrating limnological knowledge with geospatial technologies for sustainable water resources management"*
 
-### 🗺️ Funcionalidades del Mapa
-- **Control de capas** interactivo (activar/desactivar)
-- **Regulación de opacidad** individual para cada capa
-- **Información detallada** mediante tooltips y popups
-- **Interfaz responsive** adaptable a distintos dispositivos
+## ✨ Main Features
 
-## 🗃️ Fuentes de Datos
+### 🗺️ Map Functionalities
+- **Interactive layer contro**  (on/off)
+- **Individual opacity control** for each layer
+- **Detailed information** via tooltips and popups
+- **Responsive interface** adaptable to different devices
 
-| Capa               | Fuente                        | Enlace |
+## 🗃️ Data sources
+
+| Layers               | Source                        | Link |
 |--------------------|-------------------------------|--------|
-| Cuencas           | Secretaría de Energía        | [Dataset](http://datos.energia.gob.ar/dataset/2c8b870a-7d6b-4ad0-ace0-86c4a9c9e3c0/archivo/ace98ef1-e7a8-4d5d-8f44-2e85a2d824a4) |
-| Cursos de agua    | Geoportal IDESA              | [Capa WMS](http://geoportal.idesa.gob.ar/layers/geonode%3Acursosdeagua) |
-| Microcuencas      | Geoportal IDESA              | [Capa GeoNode](http://geoportal.idesa.gob.ar/layers/geonode%3Acuencas_noa_ll) |
-| Ecorregiones      | Fundación Miguel Lillo       | [Publicación](https://www.lillo.org.ar/editorial/index.php/publicaciones/catalog/book/253) |
-| Textura de suelo  | Earth Engine Data Catalog    | [Dataset](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_TEXTURE-CLASS_USDA-TT_M_v02?hl=es-419) |
+| Basins           | Energy Secretariat        | [Dataset](http://datos.energia.gob.ar/dataset/2c8b870a-7d6b-4ad0-ace0-86c4a9c9e3c0/archivo/ace98ef1-e7a8-4d5d-8f44-2e85a2d824a4) |
+| Water courses    | IDESA  Geoportal              | [WMS layer](http://geoportal.idesa.gob.ar/layers/geonode%3Acursosdeagua) |
+| Micro-basins      | IDESA  Geoportal              | [GeoNode layer](http://geoportal.idesa.gob.ar/layers/geonode%3Acuencas_noa_ll) |
+| Ecoregions      | Miguel Lillo Foundation      | [Publication](https://www.lillo.org.ar/editorial/index.php/publicaciones/catalog/book/253) |
+| Soil Texture  | Earth Engine Data Catalog    | [Dataset](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_SOL_SOL_TEXTURE-CLASS_USDA-TT_M_v02?hl=es-419) |
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
-### Herramientas SIG
-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/QGIS_logo_new.svg" width=16> **QGIS** (Procesamiento geoespacial)
-- **Qgis2Web** (Exportación a formato web)
+### GIS Tools
+- <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/QGIS_logo_new.svg" width=16> **QGIS** (Geospatial processing)
+- **Qgis2Web** (Export to web format)
 
-### Desarrollo Web
-- <img src="images/leaflet.jpg" width=20> **Leaflet.js** (Visualización de mapas)
-- <img src="images/bootstrap-5.png" width=20> **Bootstrap 5** (Diseño responsive)
-- <img src="images/javascript.png" width=20> **JavaScript ES6** (Interactividad)
-- <img src="images/github.jpg" width=20> **GitHub** (Control de versiones)
-- <img src="images/netlify.jpg" width=20> **Netlify** (Despliegue continuo)
+### Web development
+- <img src="images/leaflet.jpg" width=20> **Leaflet.js** (Map visualisation)
+- <img src="images/bootstrap-5.png" width=20> **Bootstrap 5** (Responsive design)
+- <img src="images/javascript.png" width=20> **JavaScript** (Interactivity)
+- <img src="images/github.jpg" width=20> **GitHub** (Version control)
+- <img src="images/netlify.jpg" width=20> **Netlify** (Continuous Deployment)
 
-## 🎯 Cómo Usar el Mapa
+## 🎯 How to Use the Map
 
-1. **Navegación básica**:
-   - Zoom: Rueda del mouse o botones +/-
-   - Movimiento: Arrastrar con el cursor
+1. **Basic navigation:
+   - Zoom: Mouse wheel or +/- buttons.
+   - Movement: Drag with the cursor
 
-2. **Control de capas**:
-   - Activar/desactivar desde el panel lateral
-   - Ajustar opacidad con los controles deslizantes
+2. **Layer control**:
+   - Activate/deactivate from the side panel.
+   - Adjust opacity with sliders
 
-3. **Consulta de datos**:
-   - Clic en cualquier elemento para ver atributos
-   - Búsqueda por coordenadas
+3. **Data query**:
+   - Click on any element to view attributes
+   - Search by coordinates
 
-## 🌍 Demo en Vivo
+## 🌍 Live Demo
 
-![GIF demostrativo](images/interactiveMapProject.gif)  
-[Acceder a la aplicación](https://ceicaalmap.netlify.app)
+![Demo GIF](images/interactiveMapProject.gif)  
+[Access the application](https://ceicaalmap.netlify.app)
 
-## 👨‍💻 Contacto
+## 👨‍💻 Contact
 
 **Matías Joel Castellón**  
 - 📧 mirtybmx@gmail.com  
 - 🔗 [LinkedIn](http://www.linkedin.com/in/matias-castellon)  
-- 🏢 [CEICAAL](https://ceicaal0.webnode.page/) - Centro de Investigación de Calidad de Aguas de Ambientes de Altura
-
+- <img src="images/Logotipo-CEICAAL-HD.png" width=20> [CEICAAL](https://ceicaal0.webnode.page/)
 ---
 
-*Proyecto académico desarrollado con datos públicos oficiales (2024)*
+*Academic project developed with official public data (2024/2025)*
